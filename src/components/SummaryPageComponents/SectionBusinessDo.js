@@ -6,8 +6,12 @@ import "./SectionBusinessDo.css";
 export default function SectionBusinessDo() {
   return (
     <div style={{ textAlign: "start" }}>
-      <h1>Summary</h1>
-      <h2>How is your business doing?</h2>
+      <h1 style={{ color: "white" }} className="mb-3 text-head">
+        Summary
+      </h1>
+      <h2 style={{ color: "white" }} className="mb-3">
+        How is your business doing?
+      </h2>
       <CardComponent>
         <div className="row layout-header-card" style={{ textAlign: "center" }}>
           <div className="col block-header">
