@@ -6,11 +6,11 @@ import "./SectionBusinessDo.css";
 export default function SectionBusinessDo() {
   const mockData = [
     { id: 1, title: "40.51M", subTitle: "GMV $" },
-    { id: 2, title: "40.51M", subTitle: "GMV $" },
-    { id: 3, title: "40.51M", subTitle: "GMV $" },
-    { id: 4, title: "40.51M", subTitle: "GMV $" },
-    { id: 5, title: "40.51M", subTitle: "GMV $" },
-    { id: 6, title: "40.51M", subTitle: "GMV $" },
+    { id: 2, title: "-100.00%", subTitle: "vs Last Month" },
+    { id: 3, title: "1.23 M", subTitle: "No of Order" },
+    { id: 4, title: "-100.00%", subTitle: "vs Last Month" },
+    { id: 5, title: "32.97", subTitle: "AOV($)" },
+    { id: 6, title: "-100.00%", subTitle: "vs Last Month" },
   ];
   return (
     <div style={{ textAlign: "start" }}>
@@ -22,7 +22,7 @@ export default function SectionBusinessDo() {
       </h2>
       <CardComponent>
         <div
-          className="row layout-header-card border-custom"
+          className="row layout-header-card border-custom mb-4"
           style={{ textAlign: "center" }}
         >
           {mockData.map((data, index) => {

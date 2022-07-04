@@ -16,3 +16,7 @@ p {
     width: 2rem;
     color: white;
 }
+
+.border-bottom {
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
