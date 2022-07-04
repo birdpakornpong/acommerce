@@ -1,0 +1,7 @@
+.layout-page {
+    display: flex;
+}
+
+.bg-header-page {
+    background-image: linear-gradient(180deg, #519ED5 0%, #ACD03E 296.52%);
+}
