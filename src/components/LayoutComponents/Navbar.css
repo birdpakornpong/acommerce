@@ -1,0 +1,18 @@
+.logo-width {
+    width: 30px;
+    height: 30px;
+}
+
+.font-color-name {
+    color : white
+}
+
+p {
+    font-size: 14px;
+}
+
+.icon-size {
+    height: 2rem;
+    width: 2rem;
+    color: white;
+}

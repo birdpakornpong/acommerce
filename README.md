@@ -2,8 +2,8 @@
 
 <!-- 3. import data -->
 
-5. navbar
-6. product list
+1 header page
+2 css
 
 # Getting Started with Create React App
 
