@@ -21,14 +21,17 @@ export default function SectionBusinessDo() {
         How is your business doing?
       </h2>
       <CardComponent>
-        <div className="row layout-header-card" style={{ textAlign: "center" }}>
+        <div
+          className="row layout-header-card border-custom"
+          style={{ textAlign: "center" }}
+        >
           {mockData.map((data, index) => {
             return (
               <div className="col-2 block-header" key={index}>
-                <div className="border-custom">
+                <section>
                   <h3>{data.title}</h3>
                   <h5>{data.subTitle}</h5>
-                </div>
+                </section>
               </div>
             );
           })}

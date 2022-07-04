@@ -4,8 +4,28 @@
     padding-right: 0.2rem;
 }
 
-.border-custom {
-    border-bottom: 3px solid black;
+.border-custom div:first-child section {
+    border-bottom: 3px solid #519ED5;
+}
+
+.border-custom div:nth-child(2) section{
+    border-bottom: 3px solid #519ED5;
+} 
+
+.border-custom div:nth-child(3) section{
+    border-bottom: 3px solid #ACD03E;
+}
+
+.border-custom div:nth-child(4) section{
+    border-bottom: 3px solid #ACD03E;
+}
+
+.border-custom div:nth-child(5) section{
+    border-bottom: 3px solid #365F82;
+}
+
+.border-custom div:last-child section{
+    border-bottom: 3px solid #365F82;
 }
 
 .layout-header-card {
