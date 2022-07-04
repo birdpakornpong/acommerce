@@ -1,4 +1,15 @@
 import React from "react";
+import {
+  BsBank2,
+  BsBagDashFill,
+  BsCalendarDateFill,
+  BsCalendar3,
+  BsCashCoin,
+  BsCloudHaze2Fill,
+  BsDice5Fill,
+  BsDiagram3,
+  BsEmojiExpressionlessFill,
+} from "react-icons/bs";
 import "./SideBar.css";
 export default function Sidebar() {
   return (
@@ -7,50 +18,88 @@ export default function Sidebar() {
         <div className="list-group list-group-flush">
           <div className="padding-button">
             <button
-              className="list-group-item list-group-item-action list-group-item-light p-3"
+              className="list-group-item list-group-item-action  p-2 button-sidebar"
               href="#!"
             >
-              Dashb
+              <BsBank2 className="icon-width" />
+              <p className="font-sidebar">Hide Menu</p>
             </button>
           </div>
           <div className="padding-button">
             <button
-              className="list-group-item list-group-item-action list-group-item-light p-3"
+              className="list-group-item list-group-item-action p-2 button-sidebar"
               href="#!"
             >
-              Short
+              <BsBagDashFill className="icon-width" />
+              <p className="font-sidebar">Summary</p>
             </button>
           </div>
           <div className="padding-button">
             <button
-              className="list-group-item list-group-item-action list-group-item-light p-3"
+              className="list-group-item list-group-item-action p-2 button-sidebar"
               href="#!"
             >
-              Short
+              <BsCalendarDateFill className="icon-width" />
+              <p className="font-sidebar">Performance</p>
+              <p className="font-sidebar">Dashboards</p>
             </button>
           </div>
           <div className="padding-button">
             <button
-              className="list-group-item list-group-item-action list-group-item-light p-3"
+              className="list-group-item list-group-item-action p-2 button-sidebar"
               href="#!"
             >
-              Short
+              <BsCalendar3 className="icon-width" />
+              <p className="font-sidebar">Items and</p>
+              <p className="font-sidebar">Inventory</p>
             </button>
           </div>
           <div className="padding-button">
             <button
-              className="list-group-item list-group-item-action list-group-item-light p-3"
+              className="list-group-item list-group-item-action p-2 button-sidebar"
               href="#!"
             >
-              Short
+              <BsCashCoin className="icon-width" />
+              <p className="font-sidebar">Purchase</p>
+              <p className="font-sidebar">Orders</p>
             </button>
           </div>
           <div className="padding-button">
             <button
-              className="list-group-item list-group-item-action list-group-item-light p-3"
+              className="list-group-item list-group-item-action p-2 button-sidebar"
               href="#!"
             >
-              Short
+              <BsCloudHaze2Fill className="icon-width" />
+              <p className="font-sidebar">Sales Orders</p>
+            </button>
+          </div>
+          <div className="padding-button">
+            <button
+              className="list-group-item list-group-item-action p-2 button-sidebar"
+              href="#!"
+            >
+              <BsDice5Fill className="icon-width" />
+              <p className="font-sidebar">Return</p>
+              <p className="font-sidebar">Merchandise</p>
+            </button>
+          </div>
+          <div className="padding-button">
+            <button
+              className="list-group-item list-group-item-action p-2 button-sidebar"
+              href="#!"
+            >
+              <BsDiagram3 className="icon-width" />
+              <p className="font-sidebar">Supplier</p>
+            </button>
+          </div>
+          <div className="padding-button">
+            <button
+              className="list-group-item list-group-item-action p-2 button-sidebar"
+              href="#!"
+            >
+              <BsEmojiExpressionlessFill className="icon-width" />
+              <p className="font-sidebar">Delivery</p>
+              <p className="font-sidebar">Management</p>
             </button>
           </div>
         </div>

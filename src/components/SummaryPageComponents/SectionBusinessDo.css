@@ -4,6 +4,10 @@
     padding-right: 0.2rem;
 }
 
+.border-custom div section {
+   padding-bottom: 1rem;
+}
+
 .border-custom div:first-child section {
     border-bottom: 3px solid #519ED5;
 }
@@ -30,7 +34,8 @@
 
 .layout-header-card {
     margin: 0;
-
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .text-head {
