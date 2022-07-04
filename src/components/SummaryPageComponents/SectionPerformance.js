@@ -5,7 +5,7 @@ export default function SectionPerformance() {
   return (
     <div style={{ textAlign: "start" }}>
       <h2>How is your shipping performance?</h2>
-      <CardComponent width="78rem">
+      <CardComponent>
         <LineChart />
       </CardComponent>
     </div>

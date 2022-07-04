@@ -8,7 +8,7 @@ export default function SectionBusinessDo() {
     <div style={{ textAlign: "start" }}>
       <h1>Summary</h1>
       <h2>How is your business doing?</h2>
-      <CardComponent width="78rem">
+      <CardComponent>
         <div className="row layout-header-card" style={{ textAlign: "center" }}>
           <div className="col block-header">
             <h3>40.51M</h3>
